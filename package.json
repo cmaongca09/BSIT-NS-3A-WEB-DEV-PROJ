@@ -1,6 +1,10 @@
 {
   "dependencies": {
+    "@react-navigation/material-top-tabs": "^6.6.5",
     "global": "^4.4.0",
+    "react-native-pager-view": "^6.2.3",
+    "react-native-tab-view": "^3.5.2",
+    "react-router-dom": "^6.21.3",
     "yarn": "^1.22.21"
   }
 }
