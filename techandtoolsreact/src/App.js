@@ -10,15 +10,15 @@ import { Shop } from "./pages/Shop";
 function App() {
   return (
     <div className="App">
-      <h1>TechandTools</h1>
+      <h1 className="Title">TechandTools</h1>
       <Router>
-        <div>
-          <Link to="/">Home</Link>
+        <div className="nav">
+          <Link to="/Home">Home</Link>
           <Link to="/Shop">Shop</Link>
           <Link to="/Profile">Profile</Link>
         </div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Shop" element={<Shop />} />
           <Route path="/" element={<Inventory />} />

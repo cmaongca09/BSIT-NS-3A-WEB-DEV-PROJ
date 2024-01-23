@@ -1,3 +1,11 @@
-.App {
+.Title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(121, 55, 55);
+  margin-left: 2%;
+}
+
+.nav {
+  word-spacing: 50px;
   text-align: center;
+  padding: 2% 0 15%;
 }
