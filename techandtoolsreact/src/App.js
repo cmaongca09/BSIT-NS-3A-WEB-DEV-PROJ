@@ -7,6 +7,10 @@ import { Inventory } from "./pages/Inventory";
 import { Profile } from "./pages/Profile";
 import { Shop } from "./pages/Shop";
 
+
+
+
+
 function App() {
   return (
     <div className="App">
