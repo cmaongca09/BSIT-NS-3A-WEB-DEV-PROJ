@@ -8,6 +8,7 @@ root.render(
     <App />
   </React.StrictMode>
 );
+<<<<<<< HEAD
 
 // const mysql = require("mysql");
 
@@ -54,3 +55,5 @@ root.render(
 // 	  },
 // 	},
 //   };
+=======
+>>>>>>> 8f735f528e8d4b678adc800adaf867b939e641ce
