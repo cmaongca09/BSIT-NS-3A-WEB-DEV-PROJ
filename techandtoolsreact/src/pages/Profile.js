@@ -1,7 +1,5 @@
-// Import necessary modules
 import React, { useState } from "react";
 
-// Profile component
 export const Profile = () => {
   const initialUserData = {
     firstName: "John",
@@ -179,7 +177,6 @@ export const Profile = () => {
   );
 };
 
-// CheckoutList component
 const CheckoutList = ({ checkoutItems }) => {
   return (
     <div>
@@ -212,8 +209,6 @@ const CheckoutList = ({ checkoutItems }) => {
     </div>
   );
 };
-
-// Styles
 
 const styles = {
   container: {
