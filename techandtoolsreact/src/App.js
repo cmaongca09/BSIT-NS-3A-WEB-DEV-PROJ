@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1 className="Title">TechandTools</h1>
+        <h1 className="Title">Tech and Tools</h1>
         <SearchBar />
       </div>
       <Router>
