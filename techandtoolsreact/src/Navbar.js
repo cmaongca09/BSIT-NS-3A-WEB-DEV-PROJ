@@ -4,9 +4,9 @@ export const Navbar = () => {
     <div>
       <Link to="/LogIn">LogIn</Link>
       <Link to="/SignUp">SignUp</Link>
-      <Link to="/">Home</Link>
-      <Link to="/Shop">Shop</Link>
+      <Link to="/">Shop</Link>
       <Link to="/Profile">Profile</Link>
+      <Link to="/AboutUs">AboutUs</Link>
     </div>
   );
 };

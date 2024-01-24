@@ -1,15 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Home } from "./pages/Home";
+import { Shop } from "./pages/Shop";
 import { LogIn } from "./pages/LogIn";
 import { SignUp } from "./pages/SignUp";
-import { Inventory } from "./pages/Inventory";
 import { Profile } from "./pages/Profile";
-import { Shop } from "./pages/Shop";
-
-
-
-
+import { AboutUs } from "./pages/AboutUs";
 
 function App() {
   return (
@@ -21,17 +16,16 @@ function App() {
           <Link to="/SignUp">SignUp</Link>
         </div>
         <div>
-          <Link to="/">Home</Link>
-          <Link to="/Shop">Shop</Link>
+          <Link to="/">Shop</Link>
           <Link to="/Profile">Profile</Link>
+          <Link to="/AboutUs">About Us</Link>
         </div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Shop />} />
           <Route path="/Profile" element={<Profile />} />
-          <Route path="/Shop" element={<Shop />} />
-          <Route path="/" element={<Inventory />} />
           <Route path="/LogIn" element={<LogIn />} />
           <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
       </Router>
     </div>
