@@ -12,7 +12,7 @@ export const Profile = () => {
   }, [userId]);
 
   if (!user) {
-    return <div>Loading...</div>;
+    return <div>Couldn't Reach :((</div>;
   }
 
   return (
