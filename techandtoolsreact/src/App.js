@@ -10,11 +10,11 @@ import { Shop } from "./pages/Shop";
 function App() {
   return (
     <div className="App">
-      <h1>TechandTools</h1>
       <Router>
         <div>
-          <Link to="/LogIn">Shop</Link>
-          <Link to="/SignUp">Profile</Link>
+          <h1>TechandTools</h1>
+          <Link to="/LogIn">LogIn</Link>
+          <Link to="/SignUp">SignUp</Link>
         </div>
         <div>
           <Link to="/">Home</Link>
