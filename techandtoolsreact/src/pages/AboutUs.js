@@ -8,9 +8,11 @@ export const AboutUs = () => {
       role: "Team Leader",
       image: "TMMAONGCA.jpg",
       socials: {
-        twitter: "https://twitter.com/janesmith",
-        linkedin: "https://www.linkedin.com/in/janesmith/",
-        github: "https://github.com/janesmith",
+        Facebook:
+          "https://twitter.com/janesmithhttps://www.facebook.com/clarencedave.maongca.9",
+        linkedin:
+          "https://www.linkedin.com/in/clarence-dave-maongca-6a118a2a3//",
+        github: "https://github.com/cmaongca09",
       },
     },
 
@@ -19,9 +21,9 @@ export const AboutUs = () => {
       role: "Team Member",
       image: "TMAGULAY.jpg",
       socials: {
-        twitter: "https://twitter.com/janesmith",
-        linkedin: "https://www.linkedin.com/in/janesmith/",
-        github: "https://github.com/janesmith",
+        Facebook: "https://www.facebook.com/archhh.agl",
+        linkedin: "https://www.linkedin.com/in/archie-agulay-1833082a3/",
+        github: "https://github.com/archieagulay",
       },
     },
     {
@@ -29,9 +31,9 @@ export const AboutUs = () => {
       role: "Team Member",
       image: "TMALDABA.jpg",
       socials: {
-        twitter: "https://twitter.com/janesmith",
-        linkedin: "https://www.linkedin.com/in/janesmith/",
-        github: "https://github.com/janesmith",
+        Facebook: "https://www.facebook.com/adegamiisou",
+        linkedin: "",
+        github: "https://github.com/lancealdaba",
       },
     },
     {
@@ -39,16 +41,23 @@ export const AboutUs = () => {
       role: "Team Member",
       image: "TMALEGRE.jpg",
       socials: {
-        twitter: "https://twitter.com/janesmith",
-        linkedin: "https://www.linkedin.com/in/janesmith/",
-        github: "https://github.com/janesmith",
+        Facebook: "https://www.facebook.com/jonathan.alegre.7165",
+        linkedin: "https://www.linkedin.com/in/jonathan-alegre-29b3682a4/",
+        github: "https://github.com/Alegre-Jonathan",
       },
     },
   ];
 
   return (
     <div className="about-us-container">
-      <h1>Meet the Team</h1>
+      <h1>About the page </h1>
+      <h2>
+        Hi welcome to our page. Our group dedicated this website for IT students
+        who needs to buy their needs in their activities in just few seconds!!
+        No need to buy from outside or wait your parcel in days when you can buy
+        your IT needs here.
+      </h2>
+      ;<h1>Meet the Team</h1>
       <div className="team-members">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
