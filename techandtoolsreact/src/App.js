@@ -10,12 +10,8 @@ import { Shop } from "./pages/Shop";
 function App() {
   return (
     <div className="App">
+      <h1>TechandTools</h1>
       <Router>
-        <div>
-          <h1>TechandTools</h1>
-          <Link to="/LogIn">LogIn</Link>
-          <Link to="/SignUp">SignUp</Link>
-        </div>
         <div>
           <Link to="/">Home</Link>
           <Link to="/Shop">Shop</Link>
@@ -26,8 +22,8 @@ function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Shop" element={<Shop />} />
           <Route path="/" element={<Inventory />} />
-          <Route path="/LogIn" element={<LogIn />} />
-          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/" element={<LogIn />} />
+          <Route path="/" element={<SignUp />} />
         </Routes>
       </Router>
     </div>
