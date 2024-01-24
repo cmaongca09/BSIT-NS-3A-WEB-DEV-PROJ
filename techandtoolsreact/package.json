@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@react-navigation/material-top-tabs": "^6.6.5",
     "@syncfusion/ej2-react-navigations": "^24.1.46",
     "@testing-library/jest-dom": "^5.17.0",
