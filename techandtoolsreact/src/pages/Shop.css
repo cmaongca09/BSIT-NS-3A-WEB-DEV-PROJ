@@ -4,5 +4,7 @@
 
 .sentence2 {
   text-align: center;
-  color: rgb(0, 160, 61);
+  font-size: 2em;
+  color: #006800;
+  margin-top: 15%;
 }
