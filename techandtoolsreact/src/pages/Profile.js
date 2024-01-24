@@ -27,7 +27,7 @@ export const Profile = () => {
       </div>
       <p>Name: {user.name}</p>
       <p>Email: {user.email}</p>
-      {/* Add more details as needed */}
+      {/* Add more details as needed This is the placeholder */}
     </div>
   );
 };

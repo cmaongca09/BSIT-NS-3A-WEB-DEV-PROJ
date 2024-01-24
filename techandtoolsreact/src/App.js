@@ -13,6 +13,10 @@ function App() {
       <h1>TechandTools</h1>
       <Router>
         <div>
+          <Link to="/LogIn">Shop</Link>
+          <Link to="/SignUp">Profile</Link>
+        </div>
+        <div>
           <Link to="/">Home</Link>
           <Link to="/Shop">Shop</Link>
           <Link to="/Profile">Profile</Link>
@@ -22,8 +26,8 @@ function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Shop" element={<Shop />} />
           <Route path="/" element={<Inventory />} />
-          <Route path="/" element={<LogIn />} />
-          <Route path="/" element={<SignUp />} />
+          <Route path="/LogIn" element={<LogIn />} />
+          <Route path="/SignUp" element={<SignUp />} />
         </Routes>
       </Router>
     </div>
