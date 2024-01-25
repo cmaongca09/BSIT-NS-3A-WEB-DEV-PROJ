@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Profile.css";
 
 export const Profile = () => {
   const initialUserData = {
@@ -213,7 +214,7 @@ const CheckoutList = ({ checkoutItems }) => {
 const styles = {
   container: {
     padding: "20px",
-    border: "1px solid #ccc",
+    border: "2px solid #ccc",
     borderRadius: "8px",
     maxWidth: "400px",
     margin: "auto",
@@ -235,7 +236,7 @@ const styles = {
   },
   button: {
     padding: "8px",
-    backgroundColor: "#4CAF50",
+    backgroundColor: "#3d3d3d",
     color: "white",
     border: "none",
     borderRadius: "4px",
