@@ -24,9 +24,8 @@
   color: #007bff;
 }
 
-/* Add this rule to your AboutUs.css file */
 .team-member-image {
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
   height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
