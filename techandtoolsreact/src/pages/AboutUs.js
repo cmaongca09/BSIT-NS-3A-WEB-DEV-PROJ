@@ -70,11 +70,11 @@ export const AboutUs = () => {
             <p>{member.role}</p>
             <div className="social-links">
               <a
-                href={member.socials.twitter}
+                href={member.socials.Facebook}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Facebook
               </a>
               <a
                 href={member.socials.linkedin}
@@ -90,7 +90,6 @@ export const AboutUs = () => {
               >
                 GitHub
               </a>
-              {/* Add more social links as needed */}
             </div>
           </div>
         ))}
