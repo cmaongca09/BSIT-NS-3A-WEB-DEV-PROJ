@@ -1,8 +1,8 @@
 /* Add this CSS for styling the Profile component */
 
 h1 {
-  background-color: #353535;
-  color: rgb(0, 0, 0);
+  background-color: #444444;
+  color: rgb(255, 255, 255);
   padding: 10px;
   margin: 0;
   border-radius: 8px 8px 0 0;
@@ -33,7 +33,7 @@ input {
 
 button {
   padding: 8px;
-  background-color: #081409;
+  background-color: #3f3f3f;
   color: white;
   border: none;
   border-radius: 4px;
@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-  background-color: #353535;
+  background-color: #a81010;
 }
 
 table {

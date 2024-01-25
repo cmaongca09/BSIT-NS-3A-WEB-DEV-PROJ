@@ -21,13 +21,13 @@ export const SignUp = () => {
   };
 
   const formStyle = {
-    height: "485px",
+    height: "450px",
     width: "300px",
     marginaTop: "50px",
     padding: "30px",
     border: "1px solid #ccc",
     borderRadius: "10px",
-    backgroundColor: "#686868",
+    backgroundColor: "#b8b8b8",
     textAlign: "left",
   };
 
