@@ -2,7 +2,7 @@
   {
     "id": "001",
     "name": "Bluetooth-Module_HC-05",
-    "price": 5,
+    "price": 199,
     "desc": "",
     "quantity": 5,
     "imageurl": "Bluetooth-Module_HC-05.png"
@@ -10,7 +10,7 @@
   {
     "id": "002",
     "name": "Capacitor-10uf-Electrolytic",
-    "price": 7,
+    "price": 139,
     "desc": "",
     "quantity": 5,
     "imageurl": "Capacitor-10uf-Electrolytic.png"
@@ -26,7 +26,7 @@
   {
     "id": "004",
     "name": "Diodes_1N4148",
-    "price": 3,
+    "price": 4168,
     "desc": "",
     "quantity": 5,
     "imageurl": "Diodes_1N4148.png"
@@ -42,7 +42,7 @@
   {
     "id": "006",
     "name": "GPS-Module_Neo-6M",
-    "price": 15,
+    "price": 687,
     "desc": "",
     "quantity": 5,
     "imageurl": "GPS-Module_Neo-6M.png"
@@ -52,21 +52,21 @@
     "name": "Humidity-Sensor_HIH-6130",
     "price": 15,
     "desc": "",
-    "quantity": 5,
+    "quantity": 616,
     "imageurl": "Humidity-Sensor_HIH-6130.png"
   },
   {
     "id": "008",
     "name": "Jumper-Wires_Male-To-Male-Jumper-Wires",
-    "price": 15,
+    "price": 45,
     "desc": "",
-    "quantity": 5,
+    "quantity": 35,
     "imageurl": "Jumper-Wires_Male-To-Male-Jumper-Wires.png"
   },
   {
     "id": "009",
     "name": "LCD-Display_16x2-LCD-Module",
-    "price": 15,
+    "price": 149,
     "desc": "",
     "quantity": 5,
     "imageurl": "LCD-Display_16x2-LCD-Module.png"
@@ -74,7 +74,7 @@
   {
     "id": "010",
     "name": "LEDS_RGB-LED",
-    "price": 15,
+    "price": 100,
     "desc": "",
     "quantity": 5,
     "imageurl": "LEDS_RGB-LED.png"
@@ -82,7 +82,7 @@
   {
     "id": "011",
     "name": "Logic-Analyzer_Saleae-Logic-Pro-8",
-    "price": 15,
+    "price": 999,
     "desc": "",
     "quantity": 5,
     "imageurl": "Logic-Analyzer_Saleae-Logic-Pro-8.png"
@@ -90,7 +90,7 @@
   {
     "id": "012",
     "name": "Microcontroller_Arduino-Uno",
-    "price": 15,
+    "price": 1580,
     "desc": "",
     "quantity": 5,
     "imageurl": "Microcontroller_Arduino-Uno.png"
@@ -98,7 +98,7 @@
   {
     "id": "013",
     "name": "Motion-Sensor_PIR-Motion-Sensor",
-    "price": 15,
+    "price": 80,
     "desc": "",
     "quantity": 5,
     "imageurl": "Motion-Sensor_PIR-Motion-Sensor.png"
@@ -106,7 +106,7 @@
   {
     "id": "014",
     "name": "Motor-Driver_L298N-Motor-Driver-Module",
-    "price": 15,
+    "price": 99,
     "desc": "",
     "quantity": 5,
     "imageurl": "Motor-Driver_L298N-Motor-Driver-Module.png"
@@ -122,14 +122,14 @@
   {
     "id": "016",
     "name": "Power-Bank_Anker-Powercore-10000",
-    "price": 15,
+    "price": 1500,
     "desc": "",
     "imageurl": "Power-Bank_Anker-Powercore-10000.png"
   },
   {
     "id": "017",
     "name": "Power-Supply-Unit_DC-Bench",
-    "price": 15,
+    "price": 3900,
     "desc": "",
     "quantity": 5,
     "imageurl": "Power-Supply-Unit_DC-Bench-Power-Supply.png"
@@ -137,7 +137,7 @@
   {
     "id": "018",
     "name": "Resistor-220-Ohm",
-    "price": 15,
+    "price": 153,
     "desc": "",
     "quantity": 5,
     "imageurl": "Resistor-220-Ohm.png"
@@ -145,7 +145,7 @@
   {
     "id": "019",
     "name": "RFID-Reader_MFRC522",
-    "price": 15,
+    "price": 79,
     "desc": "",
     "quantity": 5,
     "imageurl": "RFID-Reader_MFRC522.png"
@@ -153,7 +153,7 @@
   {
     "id": "020",
     "name": "RFID-Tags_Mifare-Classic-1K",
-    "price": 15,
+    "price": 129,
     "desc": "",
     "quantity": 5,
     "imageurl": "RFID-Tags_Mifare-Classic-1K.png"
@@ -169,7 +169,7 @@
   {
     "id": "022",
     "name": "Soldering_Station-Weller-WLC100",
-    "price": 15,
+    "price": 68,
     "desc": "",
     "quantity": 5,
     "imageurl": "Soldering_Station-Weller-WLC100.png"
@@ -177,7 +177,7 @@
   {
     "id": "023",
     "name": "Temperature-Sensor_DHT22",
-    "price": 15,
+    "price": 200,
     "desc": "",
     "quantity": 5,
     "imageurl": "Temperature-Sensor_DHT22.png"
@@ -185,7 +185,7 @@
   {
     "id": "024",
     "name": "USB-Oscilloscope_Picoscope-2204A",
-    "price": 15,
+    "price": 7000,
     "desc": "",
     "quantity": 5,
     "imageurl": "USB-Oscilloscope_Picoscope-2204A.png"
@@ -193,7 +193,7 @@
   {
     "id": "025",
     "name": "Webcam_Logitech-C920-HD-Pro",
-    "price": 15,
+    "price": 2500,
     "desc": "",
     "quantity": 5,
     "imageurl": "Webcam_Logitech-C920-HD-Pro.png"
@@ -201,7 +201,7 @@
   {
     "id": "026",
     "name": "WiFi-Module_ESP8266",
-    "price": 15,
+    "price": 110,
     "desc": "",
     "quantity": 5,
     "imageurl": "WiFi-Module_ESP8266.png"
