@@ -1,0 +1,73 @@
+/* Add this CSS for styling the Profile component */
+
+h1 {
+  background-color: #353535;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.infoContainer {
+  display: grid;
+  row-gap: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px;
+  background-color: #081409;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #353535;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #333f33;
+  color: white;
+}
+
+.checkoutContainer {
+  margin-top: 20px;
+}
