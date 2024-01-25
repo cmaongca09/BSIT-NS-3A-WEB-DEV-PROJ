@@ -8,8 +8,7 @@ export const AboutUs = () => {
       role: "Team Leader",
       image: "TMMAONGCA.jpg",
       socials: {
-        Facebook:
-          "https://twitter.com/janesmithhttps://www.facebook.com/clarencedave.maongca.9",
+        Facebook: "https://www.facebook.com/clarencedave.maongca.9",
         linkedin:
           "https://www.linkedin.com/in/clarence-dave-maongca-6a118a2a3//",
         github: "https://github.com/cmaongca09",
