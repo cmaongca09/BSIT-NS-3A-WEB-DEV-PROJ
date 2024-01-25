@@ -62,7 +62,7 @@ export const AboutUs = () => {
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member">
             <img
-              src={member.image}
+              src={require(`../teamimages/${member.image}`)}
               alt={member.name}
               className="team-member-image"
             />
