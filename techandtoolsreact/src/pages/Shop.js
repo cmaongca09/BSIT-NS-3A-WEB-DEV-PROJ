@@ -19,18 +19,19 @@ export const Shop = () => {
   return (
     <section>
       <h1>Shop page</h1>
-      {SampleProducts.map((product, index) => (
-        <div key={index}>
-          <button onClick={() => openModal(product)}>
-            <p>{product.id}</p>
-            <img
-              src={require(`../imgassets/${product.imageurl}`)}
-              alt={product.name}
-            />
-            <p>{product.name}</p>
-          </button>
-        </div>
-      ))}
+      <div className="product-grid">
+        {SampleProducts.map((product, index) => (
+          <div className="product" key={index}>
+            <button onClick={() => openModal(product)}>
+              <img
+                src={require(`../imgassets/${product.imageurl}`)}
+                alt={product.name}
+              />
+              <p>{product.name}</p>
+            </button>
+          </div>
+        ))}
+      </div>
 
       <ProductModal
         isOpen={isModalOpen}

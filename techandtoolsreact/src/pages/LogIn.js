@@ -15,7 +15,7 @@ export const LogIn = () => {
     padding: "20px",
     border: "1px solid #ccc",
     borderRadius: "10px",
-    backgroundColor: "#686868",
+    backgroundColor: "#aaaaaa",
     textAlign: "left",
   };
 
